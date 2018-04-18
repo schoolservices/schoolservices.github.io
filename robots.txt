@@ -4,4 +4,5 @@ Disallow: /index.html
 Disallow: /jakesautism.html
 Disallow: /music.html
 Disallow: /google7d6017ce352077c9.html
+Disallow: /music/*
 Allow: /
