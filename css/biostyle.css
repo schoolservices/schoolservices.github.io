@@ -40,10 +40,6 @@ body {
     display: inline-block
 }
 
-.intro-text:hover {
-    cursor: default
-}
-
 .container {
     position: absolute;
     left: 50%;
@@ -84,10 +80,6 @@ a {
 
 a:visited {
     color: #fff
-}
-
-a:hover {
-    text-shadow: 0 0 5px #fff
 }
 
 @keyframes particleani {
