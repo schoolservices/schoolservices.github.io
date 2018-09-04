@@ -69,10 +69,10 @@ checkConsole();
 function checkURL() {
 var currentLocation = window.location.href;
 	if (currentLocation == "https://www.kaikozlov.com/") {
-		document.getElementById('kai').innerHTML += "<br><font face=\"verdana\"><font color=\"#FF69B4\">[kai]</font> official site<br></font>";
+		document.getElementById('kai').innerHTML += "<font face=\"verdana\"><font color=\"#FF69B4\">[kai]</font> official site</font>";
 }	
 else {
-		document.getElementById('kai').innerHTML += "<br><font face=\"verdana\"><font color=\"#FF69B4\">[kai]</font> unverified site current site " + window.location.href + " differs from official site kaikozlov.com<br></font>";
+		document.getElementById('kai').innerHTML += "<font face=\"verdana\"><font color=\"#FF69B4\">[kai]</font> unverified site current site " + window.location.href + " differs from official site kaikozlov.com</font>";
 	}
 }
 // site checker
