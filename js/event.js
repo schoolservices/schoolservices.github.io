@@ -68,7 +68,7 @@ checkConsole();
 // site checker
 function checkURL() {
 var currentLocation = window.location.href;
-	if (currentLocation == "https://www.kaikozlov.com/") {
+	if (currentLocation == "https://kaikozlov.com/") {
 		document.getElementById('kai').innerHTML += "<font face=\"verdana\"><font color=\"#FF69B4\">[kai]</font> official site</font>";
 }	
 else {
