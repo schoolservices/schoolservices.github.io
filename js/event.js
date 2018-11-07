@@ -58,8 +58,8 @@ function steam() {
 checkConsole();
 }
 
-function youtube() {
-	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> youtube link was clicked by user</font><br>";
+function docs() {
+	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> docs link was clicked by user</font><br>";
 	i += 1;
 checkConsole();
 }
