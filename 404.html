@@ -43,5 +43,15 @@
 			</div>
 		</div>
 	
+// disable rightclick
+<script>
+document.addEventListener("contextmenu", function(disablemouse) {
+ disablemouse.preventDefault();
+document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> context menu is disabled</font><br>";
+i += 1;
+checkConsole();
+}, false);
+</script>
+// disable rightclick
 
 </body></html>
