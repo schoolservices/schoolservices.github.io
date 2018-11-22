@@ -24,7 +24,7 @@ var i=0
 
 function checkConsole(){
     if (i === 10) {
-	document.getElementById('kai2').innerHTML = "<font face=\"verdana\" font color=\"white\"><font color=\"#FFF\">[kai]</font> console reset<br></font>";
+	document.getElementById('kai2').innerHTML = "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> console reset<br></font>";
 	i=1;
 	}
 }
@@ -33,7 +33,7 @@ function checkConsole(){
 // disable rightclick
 document.addEventListener("contextmenu", function(disablemouse) {
  disablemouse.preventDefault();
-document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FFF\">[kai]</font> context menu is disabled</font><br>";
+document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> context menu is disabled</font><br>";
 i += 1;
 checkConsole();
 }, false);
@@ -41,25 +41,25 @@ checkConsole();
 
 // urls functions
 function playlist() {
-	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FFF\">[kai]</font> playlist link was clicked by user</font><br>";
+	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> playlist link was clicked by user</font><br>";
 	i += 1;
 	checkConsole();
 }
 
 function selly() {
-	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FFF\">[kai]</font> selly link was clicked by user</font><br>";
+	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> selly link was clicked by user</font><br>";
 	i += 1;
 checkConsole();
 }
 
 function steam() {
-	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FFF\">[kai]</font> steam link was clicked by user</font><br>";
+	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> steam link was clicked by user</font><br>";
 	i += 1;
 checkConsole();
 }
 
 function docs() {
-	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FFF\">[kai]</font> docs link was clicked by user</font><br>";
+	document.getElementById('kai2').innerHTML += "<font face=\"verdana\" font color=\"white\"><font color=\"#FF69B4\">[kai]</font> docs link was clicked by user</font><br>";
 	i += 1;
 checkConsole();
 }
@@ -69,10 +69,10 @@ checkConsole();
 function checkURL() {
 var currentLocation = window.location.href;
 	if (currentLocation == "https://kaikozlov.com/") {
-		document.getElementById('kai').innerHTML += "<font face=\"verdana\"><font color=\"#FFF\">[kai]</font> official site</font>";
+		document.getElementById('kai').innerHTML += "<font face=\"verdana\"><font color=\"#FF69B4\">[kai]</font> official site</font>";
 }	
 else {
-		document.getElementById('kai').innerHTML += "<font face=\"verdana\"><font color=\"#FFF\">[kai]</font> unverified site current site " + window.location.href + " differs from official site kaikozlov.com</font>";
+		document.getElementById('kai').innerHTML += "<font face=\"verdana\"><font color=\"#FF69B4\">[kai]</font> unverified site current site " + window.location.href + " differs from official site kaikozlov.com</font>";
 	}
 }
 // site checker
