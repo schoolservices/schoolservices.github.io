@@ -71,6 +71,13 @@ a {
 	color: white;
 }
 
+a.title {
+	letter-spacing: 1px;
+	font-family: 'VOXI-Semibold';
+	font-size: 35px;
+	color: white;
+}
+
 a:hover {
 	transition: 1s;
 	letter-spacing: 2px;
@@ -89,6 +96,10 @@ a:hover {
 	text-align: center;
 }
 
+#title {
+  padding-bottom: 33px;
+  padding-top: 34px
+}
 #vid {
   position:fixed;
   min-width:135%;
